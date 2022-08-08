@@ -1,0 +1,122 @@
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  .container{
+    clear:both;
+    overflow:auto;
+  
+  }
+  
+  nav {
+    float:left;
+  
+  }
+  
+  .logo img{float:left;}
+  
+  ul li{
+    display: inline-block; padding:20px;
+    font-size:20px; font-family: 'Roboto Slab', serif;
+  }
+  
+  a:link {
+    text-decoration: none;
+  
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:hover {
+    color: #f5bfd7;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+
+body {
+    background-image: url(https://images.pexels.com/photos/355748/pexels-photo-355748.jpeg);
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  .contactheader {
+    text-align: center;
+    background-color: white;
+    font-size: 150%;
+    margin-left: 4in;
+    margin-right: 4in;
+    margin-top: .5in;
+    padding: .02px;
+    color: #CC4949;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 24px;
+    border-radius: 5px;
+    border:2px solid #CC6666;
+  
+  }
+  
+  form { 
+    max-width:420px; margin:50px auto; 
+  }
+  
+  .feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  border:2px solid #CC6666;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #CC4949; }
+  
+  textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+  }
+  
+  [type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  }
+  
+  [type="submit"]:hover { background:#CC4949; }
+  
+  .map-container {
+    text-align: center;
+  }
