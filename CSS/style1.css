@@ -50,7 +50,7 @@ li a {
 body {
     background-image: url(https://images.pexels.com/photos/355748/pexels-photo-355748.jpeg);
     background-position: 50% 10%;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
     height: 100%;
   }
@@ -74,10 +74,11 @@ body {
   
   form { 
     max-width:420px; margin:50px auto; 
+    
   }
   
   .feedback-input {
-  color:white;
+  color: black;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;
@@ -175,4 +176,37 @@ body {
     margin-bottom:0;
   }
 
- 
+  h3 {
+    text-align: center;
+    background-color: white;
+    font-size: 150%;
+    margin-left: 4in;
+    margin-right: 4in;
+    margin-top: .5in;
+    padding: .02px;
+    color: #CC4949;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 24px;
+    border-radius: 5px;
+    border:2px solid #CC6666;
+  }
+
+.aboutimage {
+   text-align: center;
+}
+
+.mission {
+    background-color: white;
+    padding: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border:2px solid #CC6666;
+    opacity: 86%;
+}
+
+.iframe {
+    text-align: center;
+}
